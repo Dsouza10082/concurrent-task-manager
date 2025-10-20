@@ -1,5 +1,7 @@
 # Concurrent Task Manager Module - Quick Start Guide
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/347849da-1e66-4f37-bbbc-76f42e16c50f" />
+
 ## 🎯 What is Concurrent Task Manager?
 
 Concurrent Task Manager is a **Go 1.25+ module** for building high-performance asynchronous task processing systems. It's designed to be **integrated into your existing Go applications** as a reusable component.

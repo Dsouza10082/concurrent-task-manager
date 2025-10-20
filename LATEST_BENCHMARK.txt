@@ -1,0 +1,32 @@
+2025/10/20 12:04:49 Worker 6 started
+2025/10/20 12:04:49 Worker 6 processing task bench-task-0 (priority: 5)
+2025/10/20 12:04:49 Worker 3 started
+2025/10/20 12:04:49 Worker 4 started
+2025/10/20 12:04:49 Worker 8 started
+2025/10/20 12:04:49 Worker 7 started
+2025/10/20 12:04:49 Worker 5 started
+2025/10/20 12:04:49 Worker 1 started
+2025/10/20 12:04:49 Worker 0 started
+2025/10/20 12:04:49 Worker 2 started
+2025/10/20 12:04:49 Worker 9 started
+2025/10/20 12:04:50 Starting TaskManager shutdown...
+2025/10/20 12:04:50 Worker 5 shutting down
+2025/10/20 12:04:50 Worker 9 shutting down
+2025/10/20 12:04:50 Worker 7 shutting down
+2025/10/20 12:04:50 Worker 8 shutting down
+2025/10/20 12:04:50 Worker 4 shutting down
+2025/10/20 12:04:50 Worker 3 shutting down
+2025/10/20 12:04:50 Worker 2 shutting down
+2025/10/20 12:04:50 Worker 0 shutting down
+2025/10/20 12:04:50 Worker 1 shutting down
+2025/10/20 12:04:50 Worker 6 shutting down
+2025/10/20 12:04:50 TaskManager shutdown complete
+goos: darwin
+goarch: arm64
+pkg: github.com/Dsouza10082/concurrent-task-manager/test
+cpu: Apple M3 Pro
+BenchmarkTaskProcessing-12       	       1	1001365583 ns/op	   22968 B/op	     141 allocs/op
+BenchmarkJSONSerialization/Marshal-12         	 1417756	       802.6 ns/op	     608 B/op	      14 allocs/op
+BenchmarkJSONSerialization/Unmarshal-12       	  833421	      1454 ns/op	    1216 B/op	      26 allocs/op
+PASS
+ok  	github.com/Dsouza10082/concurrent-task-manager/test	4.014s
